@@ -1,7 +1,7 @@
 import pygame
 
 class Subtitle:
-    def __init__(self, screen, font=None, font_size=36, text_color=(255, 255, 255), y_offset=50, typing_speed=50):
+    def __init__(self, screen, font=None, font_size=36, text_color=(21,76,121), y_offset=50, typing_speed=50):
         self.screen = screen
         self.font = pygame.font.Font(font, font_size)
         self.text_color = text_color
